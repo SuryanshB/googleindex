@@ -5,7 +5,26 @@
     position: relative;
     right: 11px;
 }
-
+@media (min-width: 600px){
+    .gsimg{
+        width: 400px;
+        align-self: center;
+        position: relative;
+        left: 468px;
+    }
+}
+@media (max-width: 599px){
+    .gsimg{
+        width: 400px;
+        align-self: center;
+        position: relative;
+        left: 270px;
+    }
+    #main{
+        position: relative;
+        top: 400px;
+    }
+}
       h2{
     color:  yellowgreen;
     position: relative;
@@ -130,12 +149,6 @@ h6{
     left: 138px;
     font-size: 20px;
     color: blue;
-}
-.gsimg{
-    width: 400px;
-    align-self: center;
-    position: relative;
-    left: 468px;
 }
 h4{
     font-size: 21.5px;
